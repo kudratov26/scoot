@@ -1,4 +1,4 @@
-export const Careers = () => {
+export const CareersComp = () => {
     return (
         <div>Careers</div>
     )

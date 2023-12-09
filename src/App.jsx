@@ -9,7 +9,7 @@ import { Location } from './pages/location/Location'
 
 export const App = () => {
   return (
-    <>
+    <div className=''>
       <Navbar />
       <Switch>
         <Route path="/">
@@ -26,6 +26,6 @@ export const App = () => {
         </Route>
       </Switch>
       <Footer />
-    </>
+    </div>
   )
 }

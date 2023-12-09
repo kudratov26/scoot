@@ -1,5 +1,8 @@
+import { HomeComp } from '../../components/pages/homeComponent/HomeComp'
 export const Home = () => {
     return (
-        <div>Home</div>
+        <div>
+            <HomeComp />
+        </div>
     )
 }

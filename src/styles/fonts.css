@@ -1,4 +1,9 @@
 @font-face {
-    font-family: LexendDeca;
+    font-family: lexendDeca;
     src: url("/fonts/LexendDeca-Regular.ttf");
+}
+
+@font-face {
+    font-family: spaceMono;
+    src: url("../../public/fonts/SpaceMono-Regular.ttf");
 }

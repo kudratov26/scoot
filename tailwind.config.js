@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx,css}",
+  ],
   theme: {
     extend: {},
     container: {
@@ -26,8 +28,14 @@ export default {
       }
     },
     fontFamily: {
-      lexendDeca: "LexendDeca"
+      lexendDeca: "lexendDeca",
+      spaceMono: "spaceMono"
     },
+    backImages: {
+      heroImg: "url('/mock_images/hero-img.png')",
+      aboutImg: "url('/mock_images/about-img.png')",
+      headerImg: "url('/mock_images/header-img.png')",
+    }
   },
   plugins: [],
 }
