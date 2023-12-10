@@ -1,5 +1,7 @@
+import { LocationsComp } from "../../components/pages/locationComponent/LocationsComp"
+
 export const Location = () => {
     return (
-        <div>Location</div>
+        <div><LocationsComp /></div>
     )
 }

@@ -1,5 +1,9 @@
+import { CareersComp } from "../../components/pages/careersComponent/CareersComp"
+
 export const Careers = () => {
     return (
-        <div>Careers</div>
+        <div>
+            <CareersComp />
+        </div>
     )
 }
